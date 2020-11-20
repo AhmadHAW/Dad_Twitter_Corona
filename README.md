@@ -1,5 +1,5 @@
 # Data Management and Algorithms for Big Data
-~Sabrina Göllner, Izabela Burevska, Ahmad Khalidi, Olaf Zukunft (Prof)~
+**Sabrina Göllner, Izabela Burevska, Ahmad Khalidi, Olaf Zukunft (Prof)**
 
 We are three students studying Master Computer Science at the HAW Hamburg. Our subject is Big Data and Data Science. For one project we have to implement a big data pipeline on a subject of our choice. This subject is the Corona-Virus. Our goal is to implement a pipeline where Tweets about health issues and official Corona-cases are being aggregated and then made available on a dashboard. For that we use technologies like Apache Spark, Docker and Python Notebook in a Lambda-Architecture. This project is a feasibility study and won’t be accessible by the general public.
 
