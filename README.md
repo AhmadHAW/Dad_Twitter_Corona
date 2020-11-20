@@ -18,6 +18,7 @@ All System components will be deployed on our personal computers. There will be 
 As seen in  *Drawing 3: pipeline example*, we are using the given location either in the tweet itself or of the home location of the user to map the hashtags to the cities in the cleaning process (upper left box).
 After transform the json into pyspark dataframe and group by (aggregate) over all citites and hashtags to get the count of all unique combinations. This process is done on the spark batch ecosystem.
 The result is shown in an interactive map made with python folium library(based on open street maps). The map shows all upcoming tweets with given hashtags in given citites.
+
 ![Pipeline Example](https://github.com/AhmadHAW/Dad_Twitter_Corona/blob/main/Pipeline_Interactive_map.png?raw=true  "Pipeline Example")
 ## Personal Data Protection
 We have no intention of using those data on a personal level. That being said, we will make sure there will be no data displayed, so that one can trace back individuals and their symptoms. For example the interactive map shown in  *Drawing 1: Dashboard* will not be used on a fine-grained level. Bigger cities may be divided into districts or popular areas. Each individual of our group will apply if needed for their own access-token. We will also make sure to formally request any major changes if needed. We will share our results in a closed group of students and professor Olaf Zukunft.
